@@ -1,0 +1,6 @@
+{
+  "dist": {
+    "repo": "jonux@github.com:jonux/jonux.github.io#gh-pages",
+    "beforeStageCommand": "cat front.yml ../README.md > index.md"
+  }
+}
