@@ -14,21 +14,6 @@ hosted in [Github pages](https://pages.github.com/).
 [Sustain Live Demo](https://biomadeira.github.io/sustain)
 
 
-## Screenshots
-
-**Home page**
-![home page](https://raw.githubusercontent.com/biomadeira/sustain/gh-pages/assets/images/screen1.png)
-
-**Blog page**
-![blog page](https://raw.githubusercontent.com/biomadeira/sustain/gh-pages/assets/images/screen2.png)
-
-**Post page**
-![post page](https://raw.githubusercontent.com/biomadeira/sustain/gh-pages/assets/images/screen3.png)
-
-**Projects page**
-![project page](https://raw.githubusercontent.com/biomadeira/sustain/gh-pages/assets/images/screen4.png)
-
-
 ## How to use it
 
 Simply clone/fork this repository, and then run `jekyll serve` inside the directory.
