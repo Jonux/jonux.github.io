@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  
+    <title type="text" xml:lang="en">Joel Huttunen</title>
+    <link type="application/atom+xml" rel="self" href="http://localhost:3000/atom.xml"/>
+  
+  <link href="http://localhost:3000/"/>
+  <id>http://localhost:3000/</id>
+  <updated>2017-10-04T23:15:38Z</updated>
+  <author>
+    <name>Joel Huttunen</name>
+    <email>jonhu92@gmail.com</email>
+  </author>
+  <rights type="text">Copyright © 2017 Joel Huttunen. All rights reserved.</rights>
+  
+  <entry>
+  <title type="text">Living in San Francisco</title>
+  <link rel="alternate" type="text/html" href="http://localhost:3000/post1.html" />
+  <id>http://localhost:3000/post1</id>
+  <published>2017-09-10T00:00:00Z</published>
+  <updated>2017-09-10T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <p>San Francisco Rocks!</p>
+ ]]></content>
+</entry>
+
+
+
+</feed>
