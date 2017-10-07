@@ -22,6 +22,12 @@ p {
 	color: #444;
 }
 
+p.resp_info {
+	margin-top: 3px;
+	margin-bottom: 5px;
+	font-size: 1em;
+}
+
 #cv {
 	width: 90%;
 	max-width: 800px;
@@ -129,6 +135,11 @@ section:last-child {
 	color: #cf8a05;
 }
 
+.sectionTitle h1.resp_info {
+	font-size: 1.5em;
+	margin-left: 0px;
+}
+
 .sectionContent h2 {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
@@ -143,9 +154,9 @@ section:last-child {
 
 .keySkills {
 	list-style-type: none;
-	-moz-column-count:3;
-	-webkit-column-count:3;
-	column-count:3;
+	-moz-column-count:2;
+	-webkit-column-count:2;
+	column-count:2;
 	margin-bottom: 20px;
 	font-size: 1em;
 	color: #444;
@@ -312,15 +323,15 @@ section:last-child {
 
 .quickFade {
     -webkit-animation-name: reset, fade-in;
-    -webkit-animation-duration: 2.5s;
+    -webkit-animation-duration: 1.5s;
     -webkit-animation-timing-function: ease-in;
 	
 	-moz-animation-name: reset, fade-in;
-    -moz-animation-duration: 2.5s;
+    -moz-animation-duration: 1.5s;
     -moz-animation-timing-function: ease-in;
 	
 	animation-name: reset, fade-in;
-    animation-duration: 2.5s;
+    animation-duration: 1.5s;
     animation-timing-function: ease-in;
 }
  
