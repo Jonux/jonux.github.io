@@ -143,6 +143,7 @@ section:last-child {
 	list-style-type: none;
 	-moz-column-count:2;
 	-webkit-column-count:2;
+	-webkit-padding-start: 0px;
 	column-count:2;
 	margin-bottom: 20px;
 	font-size: 1em;
