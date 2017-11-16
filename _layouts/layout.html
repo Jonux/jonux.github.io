@@ -8,6 +8,11 @@
     <meta name="description" content="{{ site.description }}">
     <link rel="favicon" href="{{ site.baseurl }}static/img/favicon.ico">
 
+    {% for keyword in page.keywords %}
+    <meta name="keywords" content="{{ keyword }}">
+    <meta name="news_keywords" content="{{ keyword }}">
+    {% endfor %}
+
     {% if page.title %}
       <title>{{ page.title }}</title>
     {% else %}
