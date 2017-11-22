@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Enpowering Python Shell
+title: Empowering Python Shell
 tags:
 - Python Shell
-- Programming
 - IPython
+- Tutorial
 keywords:
 - python shell,ipython,python3,debugging
 ---
 
-<h1>Enpowering Python Shell</h1>
+<h1>Empowering Python Shell</h1>
 
 <p>Many developers underestimate the power of Python shell. Default iPython shell provides interactive tools for code debugging. I haven't found good articles about Python's shell usage, so I decided to gather up some helpful commands while working with Python shell.
 </p>
@@ -124,7 +124,7 @@ hello
 # Modified the file after opening the shell? No worries, just reload it:
 >>> %loadpy tests/test.py
 
-# The python module has recursive depedencies? Reload it recursively with all depedencies:
+# The python module has recursive dependencies? Reload it recursively with all dependencies:
 >>> from IPython.lib.deepreload import reload as dreload
 >>> import itertools  # example module
 >>> dreload(itertools)
@@ -199,7 +199,7 @@ typing.Any
 
 <h2> Final words </h2>
 <p>
-Hopefully this blog inspired you to use Python shell more in your projects and help you to test possible edge cases in early stage. Early edge case testing improves code quality and feels rewarding at least to me. I recommend also to document some of these manually checked test cases as doctests in your project because then you have up-to-date documentation and tests about the problem. Overall, I hope that this blog post was helpful and I wish you enlightful debugging time!
+Hopefully this blog inspired you to use Python shell more in your projects and help you to test possible edge cases in early stage. Early edge case testing improves code quality and feels rewarding at least to me. I recommend also to document some of these manually checked test cases as doctests in your project because then you have up-to-date documentation and tests about the problem. Overall, I hope that this blog post was helpful and I wish you delightful debugging time!
 </p>
 <hr/>
 Check out IPython's <a href="http://ipython.readthedocs.io/">official documentation</a>!<br/>
