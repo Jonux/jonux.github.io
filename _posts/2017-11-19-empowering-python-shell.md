@@ -11,7 +11,7 @@ keywords:
 
 <h1>Empowering Python Shell</h1>
 
-<p>Many developers underestimate the power of Python shell. Default iPython shell provides interactive tools for code debugging. I haven't found good articles about Python's shell usage, so I decided to gather up some helpful commands while working with Python shell.
+<p>Many developers underestimate the power of Python shell. The iPython shell provides interactive tools for code debugging. I haven't found good articles about Python's shell usage, so I decided to gather up some helpful commands while working with Python shell.
 </p>
 
 <p>
@@ -28,7 +28,7 @@ My background is from C++ programming, so getting familiar with Python shell for
 <h3 id="table">1. Moving in Python Shell</h3>
 
 <p>
-Python Shell's shortcuts are inspired by Emacs editor [1]. However, the most handy commands to me have been basic shell commands, like jumping word by word, autocompleting by <code>tab</code> and browsing though previous commands by using <code>UP</code> and <code>DOWN</code> keys. These are the basics that every shell user knows. Nevertheless, Python Shell provides extensions to these basic functionalities; For example, command <code>pri[press UP]</code> will show you previous commands which start with a prefix string <code>pri</code>. This trick becomes extremely handy when a programmer copy-pastes a code snippet from an editor and remembers that the snippet is intended with x number of spaces. In that case, we could add a space and press up and scroll through all our previous code snippets.
+The most handy commands to me have been basic shell commands, like jumping word by word, autocompleting by <code>tab</code> and browsing though previous commands by using <code>UP</code> and <code>DOWN</code> keys. These are the basics that every shell user knows. Nevertheless, iPython shell provides extensions to these basic functionalities; For example, command <code>pri[press UP]</code> will show you previous commands which start with a prefix string <code>pri</code>. This trick becomes extremely handy when a programmer copy-pastes a code snippet from an editor and remembers that the snippet is intended with x number of spaces. In that case, we could add a space and press up and scroll through all our previous code snippets.
 </p>
 
 <table>  
@@ -74,7 +74,7 @@ Python Shell's shortcuts are inspired by Emacs editor [1]. However, the most han
 <br />
 
 <p>
-Another problem, that I have noticed developers to trouble with, is how to move code snippets between code editor and Python shell. A common solution is to remove leftern extra spaces before moving the snippet to the shell if the first copy-pasting didn't work out. This approach is extra work and blocks our previous whitespace history trick. Python shell is checking the intention level from the first line and it also ignores python shell's characters. Hence, we should select an area which does not contain any extra whitespace lines before the relevant code. The selected area should include all whitespace chars from the first line to keep the snippet's internal intention attach (see example below).
+Another problem that I have noticed developers have trouble with is moving code snippets between the code editor and python shell. A common solution is to remove leftern extra spaces before moving the snippet to the shell if the first copy-pasting didn't work out. This approach is extra work and blocks our previous whitespace history trick. The IPython shell is checking the intention level from the first line and it also ignores python shell's characters. Hence, we should select an area which does not contain any extra whitespace lines before the relevant code. The selected area should include all whitespace chars from the first line to keep the snippet's internal intention attach (see example below).
 </p>
 
 <img width="480px" src="/assets/images/ipython_select1.png" alt="Code snippet copy-pasting" />
@@ -83,7 +83,7 @@ Another problem, that I have noticed developers to trouble with, is how to move 
 <h3 id="table">2. IPython Magic Commands</h3>
 
 <p>
-Interactive Python Shell provides a few extra key features on top of the basic Python compiler. I think the most relevant ones are <code>%magic</code> commands that helps many notorous tasks, such as measuring time of a function, profiling code's performance, and reloading Python objects.
+Interactive Python Shell provides a few extra key features on top of the basic Python compiler. I think the most relevant ones are <code>%magic</code> commands that helps many frequently needed simple tasks, such as measuring time of a function, profiling code's performance, and reloading Python objects.
 </p>
 
 
