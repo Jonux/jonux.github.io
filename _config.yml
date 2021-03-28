@@ -13,11 +13,11 @@ safe: true
 # edit here to achieve your personal greatness
 url: http://jonux.github.io/
 baseurl: /
-title: Joel Huttunen
+title: Jonux's Webpage
 author: Joel Huttunen
-description: Personal blog and resume
+description: Free-time projects
 avatar: profile.jpg
-email: jonhu92@gmail.com
+email: joel.huttunen@md5.fi
 github: jonux # username
 twitter: # username
 linkedin: joel-huttunen-40859bba
